@@ -1,9 +1,9 @@
 package altn72.tpfilrouge.service;
 
 import altn72.tpfilrouge.modele.Utilisateur;
-import altn72.tpfilrouge.modele.UtilisateurRepository;
+import altn72.tpfilrouge.modele.UtilisateurDetails;
+import altn72.tpfilrouge.repository.UtilisateurRepository;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -25,10 +25,12 @@ public class UtilisateurService implements UserDetailsService {
         Utilisateur utilisateur = utilisateurRepository.findByIdConnexion(nomUtilisateur)
                 .orElseThrow(() -> new UsernameNotFoundException("Utilisateur non trouvé : " + nomUtilisateur));
 
-        return new User(
+        return new UtilisateurDetails(
                 utilisateur.getIdConnexion(),
                 utilisateur.getMotDePasseHache(),
-                Collections.singletonList(new SimpleGrantedAuthority("ROLE_" + utilisateur.getProfil()))
+                Collections.singletonList(new SimpleGrantedAuthority("ROLE_" + utilisateur.getProfil())),
+                utilisateur.getPrenom(),
+                utilisateur.getProfil()
         );
     }
 }

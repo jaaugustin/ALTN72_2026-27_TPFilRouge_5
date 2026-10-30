@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d4d2069-84fe-43dc-9f5f-c7b177d8855a" name="Changes" comment="Dev Full Stack Java - 2026-27&#10;Corrigé TP 3-4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/altn72/tpfilrouge/controleur/AccueilControleur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/altn72/tpfilrouge/modele/UtilisateurDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/accueil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/altn72/tpfilrouge/config/ConfigurationSecurite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/altn72/tpfilrouge/config/ConfigurationSecurite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/altn72/tpfilrouge/service/UtilisateurService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/altn72/tpfilrouge/service/UtilisateurService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/listeProgrammeurs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/listeProgrammeurs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/altn72/tpfilrouge/TpFilRougeApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/altn72/tpfilrouge/TpFilRougeApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/altn72/tpfilrouge/config/ConfigurationSecurite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/altn72/tpfilrouge/config/ConfigurationSecurite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/altn72/tpfilrouge/service/UtilisateurService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/altn72/tpfilrouge/service/UtilisateurService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/listeProgrammeurs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/listeProgrammeurs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/script.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +174,7 @@
       <workItem from="1791976259184" duration="488000" />
       <workItem from="1791979595534" duration="6108000" />
       <workItem from="1791986037496" duration="3849000" />
-      <workItem from="1793364620422" duration="4622000" />
+      <workItem from="1793364620422" duration="5047000" />
     </task>
     <servers />
   </component>
